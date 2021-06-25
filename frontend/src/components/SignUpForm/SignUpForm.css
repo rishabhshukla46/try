@@ -1,0 +1,20 @@
+.form-data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 50vh;
+}
+.form-field-signup {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+#select-field {
+  padding: 20px 100px;
+  text-align: left;
+}
+.signup-button {
+  margin: 10px;
+}

@@ -1,0 +1,13 @@
+.sign-in-page {
+  width: 100%;
+  padding: 40px 100px;
+}
+.main-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main-logo img {
+  width: 20%;
+  align-self: center;
+}

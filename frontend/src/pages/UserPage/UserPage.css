@@ -1,0 +1,62 @@
+.user-page {
+  margin: 70px 100px;
+  border: 1px solid black;
+  display: flex;
+}
+h4,
+h6 {
+  padding: 0px;
+  margin: 0px;
+}
+.user-details {
+  width: 25%;
+  padding: 10px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-right: 1px solid black;
+}
+.user-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.user-name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: 30px 0px;
+}
+.user-menu {
+  padding: 0;
+}
+.user-details img {
+  width: 80%;
+}
+#menu-buttons {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+#menu-buttons::after {
+  content: ">";
+}
+
+.user-actions {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 40px;
+}
+.search-field {
+  width: 80%;
+}
+.text-field {
+  width: 80%;
+  margin: 30px 0px;
+}
+#message-text {
+  width: 100%;
+}

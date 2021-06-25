@@ -1,0 +1,11 @@
+.landing-page-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 30%;
+}
+#sign-in-button,
+#sign-up-button {
+  height: 50px;
+  margin: 10px 0px;
+}
